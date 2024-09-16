@@ -1,0 +1,10 @@
+This would be the entry point for the application.
+
+REFERRAL HOSPITAL URL VIA GATEWAY
+
+POST: http://localhost:7070/REFERRINGHOSPITAL/api/hospital/refer_patient
+DELETE: http://localhost:7070/REFERRINGHOSPITAL/api/delete_consult
+
+DESTINATION HOSPITAL VIA GATEWAY
+GET: http://localhost:7070/DESTINATIONHOSPITAL/api/hospital/{referringHospital}
+GET: http://localhost:7070/DESTINATIONHOSPITAL/api/hospital_consults
