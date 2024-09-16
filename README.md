@@ -32,14 +32,24 @@ To build and run the project, follow these steps:
 
 
 # Available endpoints.
+
+
   // Regsiter a user
  * POST localhost:7070/hospitalsecurity/api/auth/register
+
+
   // Generate a token
  * localhost:7070/hospitalsecurity/api/auth/token
+
+
   // Validate a token
  * localhost:7070/hospitalsecurity/api/auth/validate
+
+
   // Refer a patient to another hospital
  * localhost:7070/referringhospital/api/hospital/refer_patient
+
+
   // Receive patient from a referring hospital
  * http://localhost:7070/destinationhospital/api/hospital_consults
 
