@@ -2,7 +2,7 @@
 A Springboot application, using microservices architecture, that enables the client, if authenticated and authorised, send and receive sensitive patient information over a network. 
 
 # Features
-* User registration, authentication and token validation woth JWT authentication.
+* User registration, authentication and token validation with JWT authentication.
 * Password encryption using BCrypt.
 * Role based authorisation with spring security.
 
